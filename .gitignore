@@ -1,0 +1,6 @@
+# project output
+node_modules
+build
+
+# local configurations
+config/local*
