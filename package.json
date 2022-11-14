@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\"}' mocha -r ts-node/register 'src/tests/**/*.spec.ts'",
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
